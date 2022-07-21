@@ -8,6 +8,8 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
+    border: 1px solid;
+    border-color: var(--color-primary-variant);
     background: transparent;
     backdrop-filter: blur(10px);
     display: grid;
