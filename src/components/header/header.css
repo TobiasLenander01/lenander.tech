@@ -43,6 +43,12 @@ header {
     border-color: var(--color-primary-variant);
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+}
+
+.me:hover {
+    background: var(--color-primary-variant);
+    cursor: default;
 }
 
 /* ================ SCROLL DOWN ================= */
