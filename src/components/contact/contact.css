@@ -23,7 +23,7 @@
 }
 
 .contact__option:hover {
-    background: var(--color-primary-variant);
+    background: var(--color-primary-hover);
 }
 
 .contact__option-icon {
@@ -63,7 +63,7 @@ input, textarea {
 }
 
 input:hover, textarea:hover {
-    background: var(--color-primary-variant);
+    background: var(--color-primary-hover);
 }
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES ====================== */
