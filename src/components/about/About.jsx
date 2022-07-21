@@ -3,6 +3,7 @@ import './about.css'
 import ME from '../../assets/me-about.png'
 import {AiOutlineCode} from 'react-icons/ai'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {BiBody} from 'react-icons/bi'
 
 const about = () => {
   return (
@@ -32,15 +33,15 @@ const about = () => {
             </article>
 
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>TEMP</h5>
-              <small>TEMP</small>
+              <BiBody className='about__icon'/>
+              <h5>21</h5>
+              <small>Years old</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi error provident, officiis doloribus, 
-            impedit pariatur consectetur ducimus nihil non aspernatur animi soluta sit ullam. Veniam error nobis distinctio ipsa voluptatum.
+            I'm Tobias Lenander. This is my website where I will display my skills and what I'm currently working on. 
+            My goal is to create many fun projects and hopefully learn a thing or two on the way.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
